@@ -1,0 +1,9 @@
+22:57:55 **** Incremental Build of configuration Release for project gtk ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o gtk.o "..\\gtk.c" 
+gcc -o gtk.exe gtk.o 
+d:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+22:57:58 Build Finished (took 2s.238ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Gtk_server_win32/server_win32.c&apos; to &apos;mouse_position_capture.c&apos;" description="Rename resource &apos;server_win32.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="server_win32.c" name="mouse_position_capture.c" stamp="1437901882831" updateReferences="true"/>
+</session>

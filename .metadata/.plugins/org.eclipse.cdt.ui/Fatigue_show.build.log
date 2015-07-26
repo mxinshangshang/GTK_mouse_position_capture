@@ -1,0 +1,9 @@
+15:37:35 **** Incremental Build of configuration Debug for project Fatigue_show ****
+Info: Internal Builder is used for build
+gcc "..\\Fatigue_show.c" -ID:/gtk+/include/gtk-3.0 -ID:/gtk+/include/cairo -ID:/gtk+/include/pango-1.0 -ID:/gtk+/include/atk-1.0 -ID:/gtk+/include/pixman-1 -ID:/gtk+/include -ID:/gtk+/include/freetype2 -ID:/gtk+/include/libpng15 -ID:/gtk+/include/gdk-pixbuf-2.0 -ID:/gtk+/include/glib-2.0 -ID:/gtk+/lib/glib-2.0/include -O0 -g3 -Wall -c -fmessage-length=0 -o Fatigue_show.o 
+gcc Fatigue_show.o -lgtk-3 -lgdk-3 -lgdi32 -limm32 -lshell32 -lole32 -luuid -lpangocairo-1.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lpangowin32-1.0 -lpango-1.0 -lm -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -LD:/gtk+/lib -mwindows -o Fatigue_show.exe 
+d:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+15:37:36 Build Finished (took 844ms)
+

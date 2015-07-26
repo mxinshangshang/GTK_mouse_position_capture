@@ -1,0 +1,19 @@
+17:13:24 **** Clean-only build of configuration Debug for project mouse_position_capture ****
+rm -rf mouse_position_capture.d mouse_position_capture.exe mouse_position_capture.o 
+17:13:32 **** Clean-only build of configuration Debug for project mouse_position_capture ****
+rm -rf mouse_position_capture.d mouse_position_capture.exe mouse_position_capture.o 
+17:13:37 **** Rebuild of configuration Debug for project mouse_position_capture ****
+Info: Internal Builder is used for build
+gcc "..\\mouse_position_capture.c" -ID:/gtk+/include/gtk-3.0 -ID:/gtk+/include/cairo -ID:/gtk+/include/pango-1.0 -ID:/gtk+/include/atk-1.0 -ID:/gtk+/include/pixman-1 -ID:/gtk+/include/freetype2 -ID:/gtk+/include/libpng15 -ID:/gtk+/include/gdk-pixbuf-2.0 -ID:/gtk+/include/glib-2.0 -ID:/gtk+/lib/glib-2.0/include -O0 -g3 -Wall -c -fmessage-length=0 -mms-bitfields -o mouse_position_capture.o 
+..\mouse_position_capture.c: In function 'motion_notify_event':
+..\mouse_position_capture.c:58:2: warning: passing argument 1 of 'gtk_window_set_title' from incompatible pointer type [enabled by default]
+  gtk_window_set_title(widget,a);
+  ^
+In file included from D:/gtk+/include/gtk-3.0/gtk/gtkdialog.h:33:0,
+                 from D:/gtk+/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from D:/gtk+/include/gtk-3.0/gtk/gtk.h:31,
+                 from ..\mouse_position_capture.c:2:
+D:/gtk+/include/gtk-3.0/gtk/gtkwindow.h:107:12: note: expected 'struct GtkWindow *' but argument is of type 'struct GtkWidget *'
+ void       gtk_window_set_title                (GtkWindow           *window,
+            ^
+gcc mouse_position_capture.o -latk-1.0 -lcairo -lfontconfig -lgailutil -lgdk_pixbuf-2.0 -lgdk-win32-3.0 -lgio-2.0 -lglib-2.0 -lgmodule-2.0 -lgobject-2.0 -lgthread-2.0 -lgtk-win32-3.0 -lpango-1.0 -lpangocairo-1.0 -lpangoft2-1.0 -lpangowin32-1.0 -lws2_32 -LD:/gtk+/lib -mwindows -o mouse_position_capture.exe 
